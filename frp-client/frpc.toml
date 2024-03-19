@@ -1,4 +1,4 @@
-serverAddr = "your_server_addr"
+serverAddr = "54.37.235.215"
 serverPort = 7000
 auth.method = "token"
 auth.token = "123456789"
@@ -15,12 +15,11 @@ log.maxDays = 3
 # transport.tls.serverName = "your_server_name"
 
 [[proxies]]
-name = "your_proxy_name"
-type = "http"
 transport.useEncryption = true
 transport.useCompression = true
 localPort = 8123
 localIP = "0.0.0.0"
+subdomain = "your_subdomain"
 
 # [proxies.plugin]
 # type = "https2http"
