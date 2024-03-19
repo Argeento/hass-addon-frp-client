@@ -28,8 +28,5 @@ schema:
   serverAddr: str
   serverPort: int
   authToken: str
-  webServerPort: int
-  webServerUser: str
-  webServerPassword: str
-  customDomain: str
+  subdomain: str
   proxyName: str
