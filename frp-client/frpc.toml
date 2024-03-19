@@ -15,6 +15,7 @@ log.maxDays = 3
 # transport.tls.serverName = "your_server_name"
 
 [[proxies]]
+name = "your_proxy_name"
 type = "http"
 transport.useEncryption = true
 transport.useCompression = true
